@@ -62,7 +62,7 @@ function App() {
     },
     {
       question: "What was the fastest red card ever issued in a game?",
-      answer: "Answer: 2 secons",
+      answer: "Answer: 2 seconds",
       color: "Red",
       image: "/src/images/image10.jpg",
     },
