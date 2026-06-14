@@ -1,0 +1,59 @@
+h1,
+h3,
+p {
+  color: azure;
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.card {
+  cursor: pointer;
+  background-color: azure;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#button_text {
+  color: black;
+  text-align: center;
+}
+
+.image img {
+  margin: 0, auto;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  padding-top: 0px;
+  color: black;
+}
