@@ -11,6 +11,7 @@ p {
 
 .card {
   cursor: pointer;
+  transition: transform 0.8s;
   background-color: azure;
   width: 400px;
   height: 300px;
