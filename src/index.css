@@ -25,6 +25,7 @@ p {
 }
 
 button {
+  border-radius: 50px;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -35,6 +36,7 @@ button {
 }
 
 .buttons {
+  gap: 20px;
   display: flex;
   justify-content: center;
   width: 400px;
@@ -42,9 +44,40 @@ button {
   margin-top: 20px;
 }
 
+button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
+
 #button_text {
   color: black;
   text-align: center;
+}
+
+.submit-button {
+  color: white;
+  background-color: lightgreen;
+  display: flex;
+  margin: auto;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.shuffle-button {
+  border-radius: 20px;
+  color: white;
+  background-color: orange;
+  width: 100px;
+}
+
+.mark-button {
+  width: 100px;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
 .image img {
@@ -57,4 +90,18 @@ button {
 .card-text {
   padding-top: 0px;
   color: black;
+}
+
+input {
+  align-items: center;
+  display: flex;
+  margin: 10px auto;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.incorrect {
+  background-color: lightcoral;
 }
