@@ -74,12 +74,6 @@ button:disabled {
   width: 100px;
 }
 
-ul {
-  text-align: center;
-  text-decoration: none;
-  color: white;
-}
-
 .image img {
   margin: 0, auto;
   width: 300px;
