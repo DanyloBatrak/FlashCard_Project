@@ -102,6 +102,7 @@ function App() {
       <div className="header">
         <h1>Ultimate Soccer Player</h1>
         <h3>How good you know about soccer?</h3>
+        <p>Number of cards: {cards.length}</p>
       </div>
       <div
         className="card"
